@@ -2,7 +2,7 @@
 
 export const CardSubmit = ({ valor }: { valor: number | null }) => {
     return (
-        <div className="bg-[#1F2630] w-[30em] rounded-4xl p-9">
+        <div className="bg-[#1F2630] sm:w-[30em] w-[90%] rounded-4xl sm:p-9 p-5">
             <div className="flex items-center justify-center mx-auto">
                 <img src="/submit.png" alt="Imagen de formulario enviado" className="size-44" />
             </div>

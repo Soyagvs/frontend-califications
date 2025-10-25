@@ -53,7 +53,7 @@ export const Card = () => {
                             <div key={index}>
                                 <button
                                     onClick={() => handleSelect(index)}
-                                    className={`size-15 rounded-full flex items-center justify-center hover:bg-neutral-500 cursor-pointer ${isActive ? 'bg-[#FC7613]' : 'bg-[#252F39]'}`}>{number}</button>
+                                    className={`size-15 rounded-full flex items-center justify-center hover:bg-neutral-500 cursor-pointer ${isActive ? 'bg-[#FC7613] text-white' : 'bg-[#252F39]'}`}>{number}</button>
                             </div>
 
                         )
